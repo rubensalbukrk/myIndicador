@@ -6,7 +6,7 @@ import Animated, {
 } from 'react-native-reanimated';
 import { StatusBar } from 'expo-status-bar';
 import { React, useState } from 'react';
-import { StyleSheet, TextInput, Text, View, Image, Button, TouchableOpacity, ImageBackground, ScrollView, } from 'react-native';
+import { StyleSheet, TextInput, Text, View, Image, Button, TouchableOpacity, ImageBackground, ScrollView } from 'react-native';
 import { MotiView, motify, MotiText } from 'moti';
 import { AntDesign } from '@expo/vector-icons';
 import Perfil from './componentes/Perfil/Index';
@@ -135,7 +135,6 @@ function Home(){
 };
 
 export default function App() {
-
   return (
     <View style={styles.homePage}>
       <Home />

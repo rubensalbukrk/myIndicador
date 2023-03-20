@@ -10,7 +10,7 @@ import Animated, {
   import { MotiView, motify, MotiText, MotiScrollView } from 'moti';
   import { AntDesign } from '@expo/vector-icons';
 
-function Perfil(){
+export default function Perfils(){
  return(
   <View style={styles.container}>
     <ScrollView 
@@ -27,15 +27,6 @@ function Perfil(){
     </ScrollView>
   </View>
  )
-}
-
-export default function App(){
-  return (
-    <View style={styles.container}>
-    <Perfil />
-    </View>
-  )
-
 }
 
 const styles = StyleSheet.create({
